@@ -1,6 +1,6 @@
 name: connectivity_web
-description: Flutter web connectivity observer
-version: 0.0.1
+description: Flutter Web package, that allows you check internet status anytime or listen to change events, using the MobX lib as state management.
+version: 0.1.0
 author: Emanuel Braz (fastencoding@gmail.com)
 homepage: https://github.com/emanuel-braz/connectivity_web
 

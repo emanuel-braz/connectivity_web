@@ -14,6 +14,11 @@ connectivity_web:
 `import 'package:connectivity_web/connectivity_web.dart';`
 
 
+### Check internet status anytime
+```dart
+bool isOnline = ConnectivityWeb().isOnline.value;
+```
+
 ### Listen events
 ```dart
 ConnectivityWeb().isOnline.observe((isOnline) {
