@@ -1,5 +1,6 @@
-# connectivity_web
-## Flutter Web Package
+# Flutter Web Package (connectivity_web)
+
+<img src="https://github.com/emanuel-braz/connectivity_web/blob/master/preview/preview.gif" width="900">
 
 
 ### Add dependency to pubspec.yaml
