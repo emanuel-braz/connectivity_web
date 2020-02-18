@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     /// or
     /// Listening directly from [Observable] and updates the [StreamController] (more simple and direct)
-    ConnectivityWeb().isOnline.observe((ChangeNotification<bool> isOnline) {
+    ConnectivityWeb().isOnline.observe((isOnline) {
       // _observarbleController.add(isOnline.newValue);
     });
 
