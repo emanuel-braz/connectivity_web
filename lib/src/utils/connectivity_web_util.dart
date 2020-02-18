@@ -3,7 +3,7 @@ enum QualityInternet {VeryPoor, Poor, Moderate, Good, VeryGood, Unknown}
 class ConnectivityWebUtil {
   
   static QualityInternet getInternetQualityInfo(int value){
-    if (value == null || value == 0) return QualityInternet.Unknown;
+    if (value == null || value <= 0) return QualityInternet.Unknown;
     if (value <= 200){
       return QualityInternet.VeryGood;
     } else if (value <= 500){

@@ -26,7 +26,7 @@ class ConnectivityWeb implements Disposable {
   Stream<Event> _onInternetConnection;
   StreamSubscription<Event> _internetConnectionSubscription;
   Observable<bool> isOnline = Observable(true);
-  Observable<int> rtt = Observable(0);
+  Observable<int> rtt = Observable(0); // Round Trip Time
 
   Action changeStatusConnection;
   void _changeStatusConnection () {
@@ -38,7 +38,7 @@ class ConnectivityWeb implements Disposable {
     rtt.value = window?.navigator?.connection?.rtt;
   }
 
-  // Ensures most compatibility among browsers
+  // Ensures most compatibility among browsers then connection.onChange
   void _registerEventListenerOnLineOffLine(){
     window.onOnline.listen((event) => changeStatusConnection());
     window.onOffline.listen((event) => changeStatusConnection());
