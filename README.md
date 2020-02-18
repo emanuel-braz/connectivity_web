@@ -6,6 +6,11 @@ A Flutter web package, that allows you to check internet status anytime or liste
 
 ### Add dependency to pubspec.yaml
 ```yaml
+dependencies:
+  connectivity_web: ^0.1.0
+```
+or
+```yaml
 connectivity_web:
   git: https://github.com/emanuel-braz/connectivity_web.git
 ```
