@@ -1,4 +1,5 @@
 # Flutter Web Package (connectivity_web)
+A Flutter web package, that allows you to check internet status anytime or listen to event changes. It's use MobX lib as state management.
 
 <img src="https://github.com/emanuel-braz/connectivity_web/blob/master/preview/preview.gif" width="900">
 
@@ -11,7 +12,9 @@ connectivity_web:
 
 
 ### Lib imports
-`import 'package:connectivity_web/connectivity_web.dart';`
+```
+import 'package:connectivity_web/connectivity_web.dart';
+```
 
 
 ### Check internet status anytime
@@ -117,3 +120,11 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 ```
+
+
+## Browser Internet Status Compatibility
+<img src="https://github.com/emanuel-braz/connectivity_web/blob/master/preview/onlineCompatibility.png" width="600">
+
+
+## RTT Compatibility (Round-Trip Time) [experimental technology](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental)
+<img src="https://github.com/emanuel-braz/connectivity_web/blob/master/preview/onlineCompatibility.png" width="600">
